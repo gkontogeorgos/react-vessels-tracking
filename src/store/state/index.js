@@ -1,0 +1,25 @@
+export const INITIAL_STATE = {
+  vessels: [],
+  selectedVessel: {
+    value: "",
+    option: "mmsi",
+    dateOption: "days",
+    days: 5,
+    dateFrom: null,
+    dateTo: null,
+    selectedDates: [],
+    period: "",
+    coords: [],
+    data: null,
+    error: null,
+  },
+  isFeatureVisible: false,
+  isSearchFormVisible: false,
+  vesselAnimation: {
+    isInitialized: false,
+    step: 0,
+    speed: 1,
+    timeSlots: 0,
+  },
+  feature: null,
+};
