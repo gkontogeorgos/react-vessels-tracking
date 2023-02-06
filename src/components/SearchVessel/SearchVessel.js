@@ -316,7 +316,7 @@ const SearchVessel = ({
         {!!selectedVessel?.error && (
           <div className={classes.error}>{selectedVessel?.error?.message}</div>
         )}
-        {!isSearchButtonDisabled && selectedVessel?.data?.length > 0 && (
+        {!isSearchButtonDisabled && selectedVessel?.data?.length > 1 && (
           <div
             className={classes.animationItemFlex}
             onClick={onRedirectToAnimation}
