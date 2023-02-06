@@ -33,7 +33,7 @@ const MenuItem = ({
 
   const isMenuItemDisabled =
     item?.id === 1 &&
-    (!selectedVessel?.data?.length || selectedVessel?.data?.length <= 1);
+    (!selectedVessel?.data?.length || selectedVessel?.data?.length === 1);
 
   return (
     <Button
